@@ -16,11 +16,26 @@ body{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
 
 }
-.cabecalho__menu i ::before{
+
+.cabecalho_menu ::before{
     content: "\e904";
     font-size: 24px;
 }
-.cabecalho__notificacao i ::before{
+.cabecalho_notificacao ::before{
     content: "\e906";
     font-size: 24px;
+}
+.cabecalho_logo{
+    width: 40px;
+}
+.menu-lateral{
+    display: flex;
+    flex-direction: column;
+    background-color: #151910;
+    width: 75vw;
+    height: 100vh;
+}
+.menu-lateral_logo{
+    width: 118px;
+    al
 }
