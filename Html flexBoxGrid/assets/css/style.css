@@ -34,7 +34,16 @@ body{
     background-color: #151910;
     width: 75vw;
     height: 100vh;
+
+    position: absolute;
+    left: -100vh;
 }
+.menu-lateral--ativo{
+
+    left: 0;
+    transition: .25s;
+}
+
 .menu-lateral_logo{
     width: 118px;
     align-self: center;
@@ -80,3 +89,4 @@ body{
 .menu-lateral_link--pinturas::before{
     content: "\e90a";
 }
+
