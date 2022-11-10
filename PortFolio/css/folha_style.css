@@ -1,0 +1,22 @@
+body{
+
+
+}
+.caixaTop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 80vh;
+    margin-top: 80px;
+
+}
+.caixa{ 
+    width: 50%;
+    height: 100%;
+    left: 20PX;
+    top: 100px;
+    background: #FFFFFF;
+    box-shadow: 1.6641px 2.16333px 19.3036px 24.9615px rgba(0, 0, 0, 0.15);
+    border-radius: 1.23077px;   
+}
