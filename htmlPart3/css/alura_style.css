@@ -7,6 +7,7 @@ header {
     background: #BBBBBB;
 }
 
+
 .caixa {
     position: relative;
     width: 940px;
@@ -35,7 +36,7 @@ nav a {
 }
 
 nav a:hover {
-    color: bisque;
+    color: #ffe4c4;
     text-decoration: underline;
 }
 
@@ -99,6 +100,7 @@ footer {
     align-items: center;
     text-align: center;
     padding: 40px 0;
+    background: url(img/alura_1/bg.jpg);
    
 
 
