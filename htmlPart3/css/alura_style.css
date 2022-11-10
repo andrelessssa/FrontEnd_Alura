@@ -1,25 +1,28 @@
 body {
     margin: 0;
+}
 
+.caixaTop {
+    background-repeat: no-repeat;
+    background-size: fill;
+    background-attachment: fixed;
+    background-image: url('/FrontEnd_Alura/htmlPart3/img/alura_1/wave-2.svg');
 }
 
 header {
     background: #BBBBBB;
 }
 
-
 .caixa {
     position: relative;
     width: 940px;
     margin: 0 auto;
-
 }
 
 nav {
     position: absolute;
     top: 110px;
     right: 0;
-
 }
 
 nav li {
@@ -37,7 +40,8 @@ nav a {
 
 nav a:hover {
     color: #ffe4c4;
-    text-decoration: underline;
+    text-decoration: none;
+    transition: all .3s;
 }
 
 .produtos {
@@ -58,25 +62,19 @@ nav a:hover {
     border-width: 2PX;
     border-style: solid;
     border-radius: 10px;
-
 }
 
 .produtos li:hover {
-    border-color: bisque;
-
+    border-color: color(srgb 0.9999 0.334 0.002);
 }
 
 .produtos li:active {
     border-color: #089C19;
-
 }
 
 .produtos li:hover h2 {
     font-size: 34px;
-
-
 }
-
 
 .produtos h2 {
     font-size: 30px;
@@ -85,35 +83,25 @@ nav a:hover {
 
 .produto-descricao {
     font-size: 18px;
-
 }
 
 .produto-preco {
     font-size: 22px;
     font-weight: bold;
     margin-top: 10px;
-
 }
 
 footer {
-
     align-items: center;
     text-align: center;
     padding: 40px 0;
-    background: url(img/alura_1/bg.jpg);
-   
-
-
-
-
+    background-image: url('/FrontEnd_Alura/htmlPart3/img/alura_1/bg.jpg');
 }
 
 .copyright {
     color: #FFFFFF;
     font-size: 13px;
     margin: 20px 0 0;
-
-
 }
 
 main {
@@ -123,7 +111,6 @@ main {
 
 form {
     margin: 40px 0;
-
 }
 
 form label,
@@ -131,9 +118,6 @@ form label {
     display: block;
     font-size: 20px;
     margin: 0 0 15px;
-
-
-
 }
 
 .input-padrao {
@@ -141,12 +125,10 @@ form label {
     margin: 0 0 20px;
     padding: 10px 25px;
     width: 50%;
-
 }
 
 .checkbox {
     margin: 20px 0;
-
 }
 
 .enviar {
@@ -160,8 +142,6 @@ form label {
     border-radius: 5px;
     transition: 1s all;
     cursor: pointer;
-
-
 }
 
 .teste {
@@ -170,9 +150,7 @@ form label {
 
 .enviar:hover {
     background: darkorange;
-
     transform: scale(1.2);
-
 }
 
 table {
